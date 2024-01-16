@@ -11,6 +11,7 @@
   --primary-clr: #ff5400;
   --secondary-clr: #131318;
   --dark-clr: #424247;
+  --paragraph-clr:rgba(19, 19, 24, 0.70);
 }
 
 /* common style */
@@ -148,11 +149,11 @@ nav ul li a {
 }
 .section-2-container .section-2-text ul li {
   width: 80%;
-  color: #5a5a5d;
+  color:var(--paragraph-clr);
   margin: 1rem 0;
 }
 .section-2-container .section-2-text p {
-  color: #5a5a5d;
+  color:var(--paragraph-clr);
 }
 .section-2-container .section-2-img {
   width: 50%;
@@ -228,4 +229,125 @@ nav ul li a {
 }
 .img7 {
   grid-column: span 7;
+}
+
+/* section-4 style */
+
+.section-4-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.section-4-header{
+  text-align: center;
+}
+.section-4-header h1{
+  color: var(--secondary-clr);
+}
+.section-4-header p{
+  color: var(--paragraph-clr);
+}
+
+.section-4-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.section-4-body-part-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.box i{
+  font-size: 3rem;
+  color: var(--primary-clr);
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  width: 50%;
+  padding: 2rem;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  border-radius: 1rem ;
+  
+}
+.box:hover{
+  box-shadow: 0px 0px 4px #000000 ;
+}
+.section-4-body-part-2 .part-1-box-2{
+  margin: 0 auto;
+}
+
+/* section 5 style */
+.section-5-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  width: 80%;
+  text-align: center;
+}
+.section-5-header h1{
+  color: #131318;
+}
+.section-5-header p{
+  color: var(--paragraph-clr);
+}
+.section-5-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.sec-5-bg{
+  background-image: url('./images/Group\ 39.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  padding: 3rem;
+  display: flex;
+}
+.section-5-part-1{
+  flex-direction: row;
+}
+.section-5-part-2{
+  flex-direction: row-reverse;
+}
+.section-5-part-1{
+  flex-direction: row;
+}
+.sec-5-bg .section-5-box{
+  width: 50%;
+  padding: 3rem;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  border-radius: 1rem;
+}
+.sec-5-bg .section-5-box p span{
+  margin: auto .31rem;
+}
+.sec-5-bg .section-5-box p span i{
+  color: var(--primary-clr);
+}
+.sec-5-bg .section-5-box p{
+  color: var(--paragraph-clr);
+}
+.sec-5-bg .section-5-box h1{
+  color: #131318;
+}
+.sec-5-bg .section-5-box .pricing{
+  color: var(--primary-clr);
+  font-weight: bolder;
 }

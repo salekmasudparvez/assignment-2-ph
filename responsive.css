@@ -8,7 +8,7 @@
     .section-1,.section-2,.section-3{
       padding: 3rem;
     }
-    .section-1-input{
+    .section-1-input,.section-4-body-part-1{
         flex-direction: column;
     }
     .section-3-body {
@@ -25,10 +25,29 @@
         left: 38%;
         font-size: 2.5rem;
       }
+/* section-5 */
+.sec-5-bg{
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.sec-5-bg h1{
+    font-size: 1rem;
+}
+.sec-5-bg p{
+    font-size: 0.7rem;
+}
+.sec-5-bg button{
+    width: 80%;
+}
+/* section-6 */
+
+
+
 }
 @media screen and (max-width:690px){
 
-    .section-1,.section-2,.section-3{
+    .section-1,.section-2,.section-3,.section-4,.section-5{
       padding: 2rem;
     }
     .section-3-body .img-holder img{
@@ -40,11 +59,22 @@
         left: 28%;
         font-size: 1.5rem;
       }
+   /* section-4 */
+   .box{
+    width: 100%;
+   }
+   /* section-5 */
+   .sec-5-bg .section-5-box{
+    width: 90%;
+    padding: 1rem;
+    
+  }
+      
 
 }
 @media screen and (max-width:460px){
 
-    .section-1,.section-2,.section-3{
+    .section-1,.section-2,.section-3,.section-4,.section-5{
       padding: 1rem;
     }
     .section-3-body .img-holder img{
