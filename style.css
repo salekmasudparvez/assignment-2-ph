@@ -343,6 +343,7 @@ nav ul li a {
 }
 .sec-5-bg .section-5-box p{
   color: var(--paragraph-clr);
+  margin: 1rem auto;
 }
 .sec-5-bg .section-5-box h1{
   color: #131318;
@@ -350,4 +351,35 @@ nav ul li a {
 .sec-5-bg .section-5-box .pricing{
   color: var(--primary-clr);
   font-weight: bolder;
+}
+.sec-5-bg .section-5-box button{
+  margin: 1rem auto;
+}
+
+/* section-6 style */
+.section-6-container{
+  display: flex;
+  gap: 1.2rem;
+}
+.section-6-container .section-6-text,.section-6-container .section-6-video{
+  width: 50%;
+}
+.section-6-container .section-6-video iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.section-6-container .section-6-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+}
+.section-6-container .section-6-text ul li{
+  margin:1rem auto;
+  width: 80%;
+}
+.section-6-container .section-6-text p{
+  color: var(--paragraph-clr);
 }
