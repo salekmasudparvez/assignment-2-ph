@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Mina:wght@700&family=Mulish:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mina:wght@700&family=Mulish:wght@400;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+:root {
+  --primary-clr: #ff5400;
+  --secondary-clr: #131318;
+  --dark-clr: #424247;
+}
+
+/* common style */
+
+.headingfont {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.paragraphFont {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.aroundPadding {
+  padding: 3rem 8rem;
+}
+.displayFlex {
+  display: flex;
+}
+.halfWidth {
+  width: 50%;
+}
+.fullWidth {
+  width: 100%;
+}
+.primaryBtn {
+  background-color: var(--primary-clr);
+  color: #ffffff;
+  border-radius: 0.3rem;
+  width: 10rem;
+  height:2.6rem ;
+  border: none;
+}
+
+/* header part style */
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  gap: 2rem;
+  justify-content: end;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--dark-clr);
+  cursor: pointer;
+}
+.logo {
+  width: 30%;
+}
+.menu {
+  width: 70%;
+}
+
+.logo h1 {
+  font-family: "Mina", sans-serif;
+}
+.logo h1 .main-word {
+  color: var(--primary-clr);
+}
+.logo h1 .first-letter {
+  color: rgb(35, 84, 175);
+}
+.logo h1 .second-letter {
+  color: rgb(206, 10, 206);
+}
+.logo h1 i {
+  color: var(--primary-clr);
+}
+
+/* section-1 style */
+.section-1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("./images/island.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6rem;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 1rem;
+}
+.section-1-input {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.3);
+}
+.section-1-input div input {
+  text-align: center;
+  width: 10rem;
+  height:2.6rem ;
+  border-radius: 0.3rem;
+  background: rgba(255, 255, 255);
+  color: rgba(19, 19, 24, 0.50);
+}
+.section-1-input div select {
+  width: 10rem;
+  height:2.6rem ;
+  text-align: center;
+  padding: 0.31rem 0;
+  border-radius: 0.3rem;
+  background: rgba(255, 255, 255);
+  color: rgba(19, 19, 24, 0.50);
+}
+.section-1-input .section-1-button button i {
+  padding: 0 0.4rem;
+}
+/* section-2 style */
+
+.section-2-container {
+  display: flex;
+  gap: 5.6rem;
+}
+.section-2-container .section-2-text {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 50%;
+  gap: 1rem;
+}
+.section-2-container .section-2-text ul {
+  padding-left: 1rem;
+}
+.section-2-container .section-2-text ul li {
+  width: 80%;
+  color: #5a5a5d;
+  margin: 1rem 0;
+}
+.section-2-container .section-2-text p {
+  color: #5a5a5d;
+}
+.section-2-container .section-2-img {
+  width: 50%;
+  height: 100%;
+}
+

@@ -1,0 +1,22 @@
+@media screen and (max-width:936px){
+
+    .section-2-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-1,.section-2{
+      padding: 3rem;
+    }
+    .section-1-input{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:460px){
+
+    .section-1,.section-2{
+      padding: 1rem;
+    }
+
+}
+  
