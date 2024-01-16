@@ -418,7 +418,7 @@ nav .menu{
   position: absolute;
   top: 30%;
   right: 3%;
-  padding: 2rem;
+  padding: 1rem;
   border: .41rem solid white;
   transform: rotate(-35deg);
   clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
@@ -546,9 +546,9 @@ footer{
 
 }
 @media screen and (max-width:690px){
-  .logo h1{
+   .logo h1{
     font-size: 1.5rem;
- }
+   }
     header,.section-1,.section-2,.section-3,.section-4,.section-5,.section-6,.section-7,.section-8{
       padding: 2rem;
     }
@@ -583,6 +583,18 @@ footer{
     .section-7-img img{
       width: 100%;
     }
+    /* discount */
+    .discount-sticker{
+      top: 30%;
+      right: 3%;
+      padding: 0 rem;
+      border: .41rem solid white;
+      
+    }
+    .discount-sticker h1{
+      font-size: 1rem;
+    }
+
 }
 @media screen and (max-width:460px){
 
