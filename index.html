@@ -17,25 +17,52 @@
       src="https://kit.fontawesome.com/6a3582826d.js"
       crossorigin="anonymous"
     ></script>
-    <style></style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header class="aroundPadding">
-      <nav class="displayFlex">
-        <div class="logo">
-          <h1 class="headingfont">
-            <i class="fa-solid fa-plane"></i><span class="first-letter">S</span
-            ><span class="second-letter">M</span>
-            <span class="main-word">Travels</span>
-          </h1>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="logo">
+            <h1 class="headingfont">
+              <i class="fa-solid fa-plane"></i><span class="first-letter">S</span
+              ><span class="second-letter">M</span>
+              <span class="main-word">Travels</span>
+            </h1>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active home" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Packages</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link href="#" role="button" > Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <ul class="menu displayFlex">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Packages</a></li>
-          <li><a href="#">Testimonial</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
       </nav>
     </header>
     <main>
@@ -294,7 +321,13 @@
             <button class="primaryBtn">See More</button>
           </div>
           <div class="section-6-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qg3qHPjWy84?si=UmcCrw7qi-3Kb1Y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe
+              src="https://www.youtube.com/embed/qg3qHPjWy84?si=UmcCrw7qi-3Kb1Y0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </section>
@@ -306,43 +339,84 @@
           <form action="#">
             <h1>Newsletter</h1>
             <p>Get your daily dose of travel news & tips. Sign up today!</p>
-            <input type="text" placeholder="Enter your name">
-            <input type="email" placeholder="Enter your email">
+            <input type="text" placeholder="Enter your name" />
+            <input type="email" placeholder="Enter your email" />
             <button type="submit">Subscribe</button>
           </form>
           <div class="section-7-img">
-            <img src="./images/Rectangle 8 (1).png" alt="Hell">
+            <img src="./images/Rectangle 8 (1).png" alt="Hell" />
+            <div class="discount-sticker">
+              <h1>smtravels.com</h1>
+              <h1>Save up to <b>70%</b></h1>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- section-7 end -->
       <!-- section-8 start -->
+      <section class="section-8 aroundPadding">
+        <div class="section-8-container">
+          <div class="map-img">
+            <img src="./images/option 1 modified.svg" alt="option"/>
+          </div>
+          <div class="map-text">
+            <h1>FEATURE DESTINATIONS ON THE MAP</h1>
+            <p class="paragraphFont">
+              Our theme lets you integrate Google Maps on any of your pages. Not
+              only this, but the maps are fully customizable so you can use the
+              style that fits you the most! You can also easily pin the
+              destinations from your posts right on the map!
+            </p>
+            <div class="google-map-logo">
+              <div class="google-map-img">
+                <img
+                  src="./images/Google_Maps_icon_(2015-2020).svg"
+                  alt="google-map-logo"
+                />
+              </div>
+               ,<div class="section-8-goggle-p"><p>Google Maps</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- section-8 end -->
     </main>
-  <footer>
-    <div class="footer-container">
-      <div class="footer-part-1">
-        <div class="footer-part-1-text">
-          <h1 class="headingfont">
-            <i class="fa-solid fa-plane"></i><span class="first-letter">S</span
-            ><span class="second-letter">M</span>
-            <span class="main-word">Travels</span>
-          </h1>
-          <p>Embark on a journey of a lifetime with SM Travels. Discover the world's most enchanting destinations, indulge in unique cultural experiences, and create memories that last a lifetime. Our expertly curated travel guides, exclusive deals, and personalized itineraries ensure a seamless and unforgettable adventure. Let us be your passport to extraordinary moments, where every step is a new discovery. Your dream vacation begins here with SM Travels </p>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-part-1">
+          <div class="footer-part-1-text">
+            <div class="logo">
+              <h1 class="headingfont">
+                <i class="fa-solid fa-plane"></i><span class="first-letter">S</span
+                ><span class="second-letter">M</span>
+                <span class="main-word">Travels</span>
+              </h1>
+            </div>
+            <p>
+              Embark on a journey of a lifetime with SM Travels. Discover the
+              world's most enchanting destinations, indulge in unique cultural
+              experiences, and create memories that last a lifetime. Our
+              expertly curated travel guides, exclusive deals, and personalized
+              itineraries ensure a seamless and unforgettable adventure. Let us
+              be your passport to extraordinary moments, where every step is a
+              new discovery. Your dream vacation begins here with SM Travels
+            </p>
+          </div>
+          <div class="footer-social-link">
+            <i class="fa-brands fa-square-x-twitter"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
         </div>
-        <div class="footer-social-link">
-          <i class="fa-brands fa-square-x-twitter"></i> 
-          <i class="fa-brands fa-square-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-github"></i>
+        <div class="footer-part-2">
+          <p>
+            2017 <i class="fa-regular fa-copyright"></i> All Rights Reserved.
+          </p>
         </div>
       </div>
-      <div class="footer-part-2">
-        <p>2017 <i class="fa-regular fa-copyright"></i> All Rights Reserved.</p>
-      </div>
-    </div>
-  </footer>
+    </footer>
   </body>
 </html>
