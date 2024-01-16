@@ -8,7 +8,7 @@
     .section-1,.section-2,.section-3,.section-4,.section-5,.section-6{
       padding: 3rem;
     }
-    .section-1-input,.section-4-body-part-1,.section-6-container{
+    .section-1-input,.section-4-body-part-1,.section-6-container,.section-7-container{
         flex-direction: column;
     }
     .section-3-body {
